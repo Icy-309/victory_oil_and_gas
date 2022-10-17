@@ -1,0 +1,467 @@
+html,body{
+    margin: 0;
+    }
+    html {
+        overflow-x: hidden;
+      }
+      
+      html, html a, body {
+        -webkit-font-smoothing: antialiased;
+      }
+
+      h1 {
+        font-size: 47px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      
+      h2 {
+        font-size: 30px; 
+      }
+      
+      h3 {
+        font-size: 22px;
+      }
+      
+      h4 {
+        font-size: 22px;
+        text-decoration: overline;
+        text-decoration: underline;
+        text-decoration-color: deepskyblue;
+        text-decoration-thickness: 6px;
+      }     
+
+    
+
+body{
+    width: 100%;
+    margin: 0 auto;
+
+}
+nav{
+
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    position: sticky;
+    top: 5px;
+    
+
+
+    
+}
+ul{
+  
+   text-align: center;
+   align-content: space-around;
+}
+#nav-list{
+    
+    background-color: transparent;
+    margin: 0px;
+    
+}
+
+
+li{
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+   
+}
+#home-link,#about-link,#contact-link,#product-link{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #f2f2f2;
+    display: inline;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px ;
+     font-size: 17px;
+    
+}
+#product-link:hover{
+    
+    color: #f2f2f2;
+    border-style: solid;
+    border-color: white;
+
+}
+#home-link:hover{
+    
+    color: #f2f2f2;
+    border-style: solid;
+    border-color: white;
+}
+#about-link:hover{
+
+    color: #f2f2f2;
+    border-style: solid;
+    border-color: white;
+}
+
+
+
+#contact-link:hover{
+    color: #f2f2f2;
+    border-style: solid;
+    border-color: white;
+}
+
+#write-up{
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    font-family:sans-serif;
+   display: block;
+   text-align:start;
+   padding-left: 30px;
+   padding-top: 10px;
+   
+}
+#write-up-2{
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-left: 23px;
+   padding-top:10px;
+      
+}
+
+
+#button-1{
+    transition: 2s;
+    transition-delay: 0s;
+    transition-duration: 0.9s;
+    transition-property: color background-color;
+    text-decoration: none;
+    
+    position: relative;   
+  display: inline-block;
+  line-height: 1.4;
+  text-align: center;
+  background-image: none;
+  border-style: solid;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: white;
+  background: transparent;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 10px 10px 10px 10px ;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+#button-1:hover{
+    background-color: #f2f2f2;
+    color: black;
+}
+
+#button-container{
+    margin-left:50px;
+    margin-right: -50px;
+}
+#operations-writeup{
+    margin-left:60px;
+    margin-right: -60px;
+    padding-top: 64px;
+}
+#paragraph-2{
+    font-size: 36px;
+    
+    color: white;
+    font-weight: bolder;
+    font-family: cursive;
+
+}
+
+
+#oil-gas{
+    font-family: monospace;
+}
+.ki{
+
+   background: fixed;
+   background-repeat: no-repeat;
+   background-size:cover;
+   height: 400px;
+   background-image: url("ship.jpg");
+    
+}
+.kin{
+
+    background: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+    background-image: url("pipeline3.jpg");
+     
+ }
+.main{
+    background: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("manclimbing.jpg");
+  
+ }
+ 
+#first-page{
+    background: fixed;
+    background-image: url("nathan-forbes-58uZ3FW7FB4-unsplash (1).jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+.toogle .line1{
+    transition: 1s;
+    transition-delay: 0s;
+    transition-duration: all 0.3s ease;
+    background-color: white;
+    height: 8px;
+    width: 40px;
+    border-radius: 4px;
+    transform: rotate(-45deg)translate(-10px, 6px);
+    
+ 
+  }
+  .toogle .line2{
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 0s;
+    transition-duration: all 0.3s ease;
+    background-color: white;
+    height: 8px;
+    width: 40px;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+  .toogle .line3{
+    transform: rotate(45deg) translate(-9px, -6px);
+    transition: 1s;
+      transition-delay: 0s;
+      transition-duration: all 0.3s ease;
+      background-color: white;
+    height: 8px;
+    width: 40px;
+    border-radius: 4px;
+    margin-top: 4px;
+
+  }
+  .line1{
+   
+    background-color: white;
+    height: 8px;
+    width: 40px;
+    border-radius: 4px;
+  
+    
+ 
+  }
+  .line2{
+    background-color: white;
+    height: 8px;
+    width: 40px;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+   .line3{
+   
+    background-color: white;
+    height: 8px;
+    width: 40px;
+    border-radius: 4px;
+    margin-top: 4px;
+
+  }
+#second-page{
+    background: fixed;
+    background-image: url("worksite-ltd-kw9LLON5lO8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    padding: 1px;
+  
+ 
+}
+
+.hamburger{
+    display: none;
+    margin: 5px;
+  
+    cursor: pointer;
+    
+    
+}
+
+
+@media screen and (max-width:767px) {
+    .hamburger{
+        display: inline;
+    }
+    li{
+        display: block;
+        text-align: end;
+    } 
+    #product-link:hover{
+    
+       text-decoration: underline;
+       text-decoration-color: white;
+       border-style: none;
+
+    
+    }
+    #first-page{
+        background: fixed;
+        background-image: url("nathan-forbes-58uZ3FW7FB4-unsplash (1).jpg");
+        background-repeat: no-repeat;
+        background-size: 767px;
+        
+        
+    }
+
+    
+    .ki{
+
+        background: fixed;
+        background-repeat: no-repeat;
+        background-size: 767px;
+        height: 400px;
+        background-image: url("ship.jpg");
+         
+     }
+    .main{
+        background: fixed;
+        background-repeat: no-repeat;
+        background-size: 767px;
+        background-image: url("manclimbing.jpg");
+         
+     }
+     .kin{
+
+        background-size:767px;
+        height: 500px;
+        background-image: url("pipeline3.jpg");
+         
+     }
+    #home-link:hover{
+        
+        text-decoration: underline;
+        text-decoration-color: white;
+        border-style: none;
+    }
+    #about-link:hover{
+    
+        text-decoration: underline;
+        text-decoration-color: white;
+        border-style: none;
+    }
+    
+    
+    
+    #contact-link:hover{
+        text-decoration: underline;
+       text-decoration-color: white;
+       border-style: none; 
+    }
+
+
+    ul{
+        
+        position: absolute;
+       text-align: center;
+        top: 50px;
+        left: 0;
+        right: 0;
+        transition: 2s;
+        transition-delay: 0s;
+        transition-duration: 0.9s;
+        clip-path: polygon(0 0, 0 0, 0 0, 0% 0);
+        background-color: rgb(3, 82, 172) ;
+
+    }
+    .ham{
+        text-align: end;
+        z-index: 6;
+        padding: 30px;
+        clip-path: polygon( 70% 0, 100% 0, 100% 100%, 70% 100%);
+
+    } 
+    .main{
+        background-size:767px;
+        height: 400px;
+        }
+    
+}
+@media screen and (max-width:667px) {
+    .ham{
+        text-align: end;
+        z-index: 6;
+        padding: 30px;
+        clip-path: polygon( 60% 0, 100% 0, 100% 100%, 60% 100%);
+
+    } 
+    #first-page{
+      
+        background-size: 667px;
+        
+        
+    }
+    .kin{
+
+        background-size:667px;
+        height: 480px;
+        background-image: url("pipeline3.jpg");
+         
+     }
+    .main{
+        background-size:667px ;
+    }
+    .ki{
+        background-size: 667px;
+        height: 400px;
+        background-image: url("ship.jpg");
+         
+     }
+}
+@media screen and (max-width:448px) {
+    .ham{
+        text-align: end;
+        z-index: 6;
+        padding: 30px;
+        clip-path: polygon( 55% 0, 100% 0, 100% 100%, 55% 100%);
+
+    } 
+    .main{
+        background-size: 600px;
+        height: 400px;
+    }
+    .ki{
+        background-size: 448px;
+        height: 400px;
+       
+         
+     }
+     .kin{
+
+        background-size:600px;
+       
+      
+}
+}
+
+

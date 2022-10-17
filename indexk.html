@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author">
+    <link rel="stylesheet" href="index.kk.css">
+    <title>oil and gas </title>
+    <style>
+      .il{
+         font-size: larger;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .vi{
+
+       
+        font-size: 40px;
+      }
+      span{
+        text-decoration: underline;
+        text-decoration-color: rgb(3, 82, 172);
+        text-decoration-thickness: 7px;
+      }
+      aside{
+      display: flex;
+      text-align: center;
+      flex-wrap:wrap ;
+      justify-content: center;
+    
+   
+      }
+      .sene{
+       height: 200px;
+       background-color: rgb(221, 221, 221);
+       margin-bottom: 5px;
+       border-radius: 5px;
+       width: 70%;
+       margin-left: 20px;
+     
+      }
+      .om{
+        display: flex;
+        justify-content: center;
+      }
+      .line1{
+          background-color: white;
+          height: 8px;
+          width: 40px;
+          border-radius: 4px;
+         
+        }
+        .line2{
+            background-color: white;
+          height: 8px;
+          width: 40px;
+          border-radius: 4px;
+          margin-top: 4px;
+        }
+        .line3{
+            background-color: white;
+          height: 8px;
+          width: 40px;
+          border-radius: 4px;
+          margin-top: 4px;
+        }
+
+        .toogle .line1{
+          transition: 1s;
+          transition-delay: 0s;
+          transition-duration: all 0.3s ease;
+          background-color: white;
+          height: 8px;
+          width: 40px;
+          border-radius: 4px;
+          transform: rotate(-45deg)translate(-10px, 6px);
+          
+       
+        }
+        .toogle .line2{
+          opacity: 0;
+          transition: 1s;
+            transition-delay: 0s;
+            transition-duration: all 0.3s ease;
+            background-color: white;
+          height: 8px;
+          width: 40px;
+          border-radius: 4px;
+          margin-top: 4px;
+        }
+        .toogle .line3{
+          transform: rotate(45deg) translate(-9px, -6px);
+          transition: 1s;
+            transition-delay: 0s;
+            transition-duration: all 0.3s ease;
+            background-color: white;
+          height: 8px;
+          width: 40px;
+          border-radius: 4px;
+          margin-top: 4px;
+      
+        }
+      .mali{
+          font-family: sans-serif;
+      }
+      .ma{
+        color: rgb(134, 134, 134);
+        font-weight: 600;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      @media screen and (max-width:448px) {
+        #write-up{
+          font-size: 2em;
+        }
+        #write-up-2{
+          font-size: 1em;
+        }
+      }
+      @media screen and (max-width:280px) {
+        #write-up{
+          font-size: 1.5rem;
+        }
+        #write-up-2{
+          font-size: 1.1em;
+        }
+        .il{
+          font-size: 1em;
+        }
+      }
+    </style>
+    
+</head>
+<body>
+    <div id="first-page">
+    <nav >
+        <div style="padding: 10px;" id="logo">
+            <img src="" alt="logo">
+
+        </div>
+      
+          <ul>
+            <li><a id="product-link" href="indexk.html">Home</a> </li>
+            <li><a id="contact-link" href="about.html">About us</a></li>
+          <li><a id="about-link" href="contatc.html">Contact us</a></li>
+            <li><a id="home-link" href="product.html">Product</a></li>
+          
+
+          </ul>
+          <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+      
+        <script>
+            let usa = document.querySelector(".hamburger")
+            let afro = document.querySelector("ul")
+            usa.onclick = function (){
+                afro.classList.toggle("ham");
+                usa.classList.toggle("toogle");
+            }
+        </script>
+    </nav>
+   
+    
+   <p id="write-up">Expert Oil Trade <br> & Cargo Solutions</p>
+
+    <p id="write-up-2"> Victory Investment Limited provides  solutions to secure, procure, ship
+            and store goods across Africa and Europe</p>
+   
+    <br>
+    
+    <div id="button-container">
+       
+        <a id="button-1"   href="operations.html">Explore</a>
+    </div>
+    <br>
+     <br>
+     <br>
+    <br>
+    
+</div>
+
+
+<footer>
+<h1 class="vi">VIL Oil and <span> Gas </span></h1>
+<p class="il">As the demand for oil, gas, and downstream products has increased globally, especially in rapidly developing Africa, V.I.L has scaled its growth to keep pace. Our teams have amassed decades of expertise in all sectors of the Oil and Gas industry, catering our powerful services to our clients unique demands.</p>
+
+<p class="il"> Our solutions span the complete supply chain, from sourcing the products, to shipping, and distribution.</p>
+</footer>
+   <aside>
+    <div class="sene">
+      <i class="fa-solid fa-truck" style="font-size: 60px;  display: grid; align-items: center;"></i>
+     
+    <h2 class="mali" >Cargo Operations</h2>
+    <p class="ma">Chartering is responsible for spot charters, time charters COA </p>
+
+    </div>
+    <div class="sene">
+      <img src="" alt="">
+      <i class="fa-sharp fa-solid fa-ship" style="font-size: 60px; display: grid; align-items: center;"></i>
+    <h2 class="mali">Marine Operations</h2>
+    <p class="ma">Chartering is responsible for spot charters, time charters COA </p>
+
+    </div>
+    <div class="sene">
+     
+    <h2 class="mali">Chatering Operations</h2>
+    <p class="ma">Chartering is responsible for spot charters, time charters COA </p>
+
+    </div>
+   </aside>
+   <i class="fa-sharp fa-solid fa-face-relieved"></i>
+   <i class="fa-solid fa-handshake"></i>
+   <i class="fa-sharp fa-solid fa-ship"></i>
+   <i class="fa-duotone fa-truck-moving"></i>
+   <i class="fa-solid fa-truck"></i>
+   <i class="fa-solid fa-shield-check"></i>
+   <i class="fa-solid fa-location-pin"></i>
+   <i class="fa-brands fa-facebook-f"></i>
+   <i class="fa-brands fa-twitter"></i>
+   <i class="fa-brands fa-instagram"></i>
+   <i class="fa-brands fa-github"></i>
+   <i class="fa-solid fa-address-book"></i>
+   <i class="fa-solid fa-gas-pump"></i>
+   <i class="fa-solid fa-phone"></i>
+   <i class="fa-sharp fa-solid fa-phone-volume"></i>
+   <i class="fa-duotone fa-phone-office"></i>
+    <script src="https://kit.fontawesome.com/1558d94b7c.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/1558d94b7c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.kk.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            position:sticky ;
+            top: 0;
+        }
+        
+        span{
+            text-decoration: underline;
+            text-decoration-color: rgb(3, 82, 172);
+            text-decoration-thickness: 8px;
+        }
+        h1{
+            color: white;
+            text-align: left;
+            align-items: center;
+            padding: 30px;
+            font-size: 40px;
+            padding-top: 50px;
+           
+        }
+        .line1{
+          background-color: white;
+          height: 8px;
+          width: 40px;
+          border-radius: 4px;
+         
+        }
+        .line2{
+            background-color: white;
+          height: 8px;
+          width: 40px;
+          margin-top: 5px;
+          border-radius: 4px;
+        }
+        input{
+            width: 80%;
+            align-items: center;
+            height: 40px;
+            border-radius: 2px;
+            border: none;
+            color:black;
+            background-color: rgb(243, 240, 240);
+
+            
+           
+        }
+        .sumbit{
+            width: 100px;
+           border-radius: 10px;
+           background-color:  rgb(8, 76, 153);
+          
+           color: white;
+           transition: 2s;
+           transition-delay: 0s;
+           transition-duration: 1s;
+           transition-property: background-color  color ;
+        }
+        .sumbit:hover{
+            background-color: white;
+            color: black;
+            border: 2px solid rgb(8, 76, 153) ;
+        }
+        
+        form{
+          display: block;
+          margin: 20px;
+        }
+        #sec{
+            color: black;
+            padding: 30px;
+            font-size: 40px;
+            padding-top: 0px;
+            text-align: left;
+        }
+        #close{
+            height: 50px;
+           
+        }
+        .kin{
+            background: fixed;
+            background-image:url("contactus.jpg") ;
+            background-size: cover;
+            height: 400px;
+            
+        }
+        .wrap{
+           
+           
+        }
+        .me{
+            display: block;
+            align-items: center;
+        }
+        .king{
+            background-color: black;
+        }
+        p{
+            color: rgb(243, 240, 240);
+            font-size: 20px;
+            padding-left: 10px;
+        }
+        @media screen and (max-width:767px){
+            .kin{
+            background: fixed;
+            background-image:url("contactus.jpg") ;
+            background-size: 767px;
+            height: 400px;
+            background-repeat: no-repeat;
+            
+        }
+    }
+        @media screen and (max-width:667px){
+            .kin{
+            background: fixed;
+            background-image:url("contactus.jpg") ;
+            background-size: 667px;
+            height: 400px;
+            background-repeat: no-repeat;
+            
+        }
+        }
+        @media screen and (max-width:448px){
+            .kin{
+            background: fixed;
+            background-image:url("contactus.jpg") ;
+            background-size: 448px;
+            height:400px;
+            background-repeat: no-repeat;
+            
+        }
+        #contactMessage{
+            width: 90%;
+
+            
+        }
+        .ham{
+        text-align: end;
+        z-index:9999;
+        clip-path: polygon(45% 0, 100% 0, 100% 100%,45% 100%);
+
+    } 
+    .kin{
+        background-size: 600px;
+        height: 300px;
+    }
+    
+    }
+    @media screen and (max-width:280px){
+    h1{
+        font-size: 2rem;
+    }
+    #sec{
+        font-size: 1.8rem;
+    }
+    .kin{
+        background-size: 600px;
+        height: 300px;
+    }
+    }
+
+    </style>
+</head>
+<body>
+    <main class="kin">
+    <nav>
+        <div style="padding: 10px;" id="logo">
+            <img src="" alt="logo">
+
+        </div>
+      
+          <ul>
+            <li><a id="product-link" href="indexk.html">Home</a> </li>
+            <li><a id="contact-link" href="about.html">About us</a></li>
+          <li><a id="about-link" href="contatc.html">Contact us</a></li>
+          <li><a id="home-link" href="product.html">Product</a></li>
+        
+          </ul>
+   
+          <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+         </div>
+        <script>
+            let usa = document.querySelector(".hamburger")
+            let afro = document.querySelector("ul")
+            usa.onclick = function (){
+                afro.classList.toggle("ham")
+                usa.classList.toggle("toogle");
+            }
+        </script>
+        
+    </nav>
+
+  
+        <div><h1><span>CONTACT</span> US </h1></div>
+       
+
+
+    </main>
+   <div class="wrap">
+    <footer class="me">
+        <h1 id="sec"> Send Us A <span>Note</span>  </h1>
+        <form action="" method="get">
+          <input type="text" name="" placeholder="Name" id="">
+          <br>
+          <br>
+          <input type="email" name="" placeholder="Email" id="">
+           <br>
+           <br>
+           <input type="tel"  placeholder="Phone" name="" id="">
+           <br>
+           <br>
+         <textarea placeholder="Message" style="  font-size: 16px; border: none; color:black; background-color: rgb(243, 240, 240);" cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+            <br>
+            <br>
+            <input type="submit" class="sumbit" value="SUBMIT">
+        </form>
+    </footer>
+    <footer class="king">
+        <h1>Contact <span> Us</span></h1>
+        <i class="fa-solid fa-location-pin" style="color:white ;font-size: 1rem;"></i> <p>P.O. Box  ....the address needed </p>
+        <p></p>
+        <i class="fa-solid fa-phone"></i>   <p>first phone number</p>
+        <i class="fa-sharp fa-solid fa-phone-volume"  style="color:white ;font-size: 1rem;"></i>  <p>second phone number</p>
+        <br>
+    </footer>
+   
+     <script src="https://kit.fontawesome.com/1558d94b7c.js" crossorigin="anonymous"></script>
+   </div>
+</body>
+</html>
